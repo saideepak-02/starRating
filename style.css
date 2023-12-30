@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color:lightgreen;
+}
+.rating-body{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.stars{
+    font-size: 2rem;
+}
+.star{
+    cursor: pointer;
+}
+.one {
+  color: rgb(255, 0, 0);
+}
+ 
+.two {
+  color: rgb(255, 106, 0);
+}
+ 
+.three {
+  color: rgb(251, 255, 120);
+}
+ 
+.four {
+  color: rgb(255, 255, 0);
+}
+ 
+.five {
+  color: rgb(24, 159, 14);
+}
